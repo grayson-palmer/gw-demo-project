@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+/********** GLOBAL **********/
+
+html {
+  background-color: #343B3F;
+}
+
+body {
+  background-color: #dadada;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/********** NAVIGATION **********/
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand:hover,.navbar-nav > li a:hover {
+  color: #329F2B !important;
+}
+
+/********** SHARED HEADER **********/
+
+.header {
+  align-items: center;
+  background: linear-gradient(#343B3F 0%, #329F2B 20%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5em;
+  padding: 2em 0 1em;
+}
+
+/********** GENERAL **********/
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.contain {
+  object-fit: contain;
+} 
+
+.card {
+  margin-top: 1em !important;
+}
+
+/********** HOME CAROUSEL **********/
+
+.carousel-container {
+  width: 100vw;
+}
+
+.carousel-item {
+  height: 83vh;
+  min-height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+}
+
+.carousel1 {
+  background-image: url('./images/1573506526965.jpeg');
+}
+
+.carousel2 {
+  background-image: url('./images/frame-styles.png');
+}
+
+.carousel3 {
+  background-image: url('./images/1573506570638.jpeg');
+}
+
+.jumbotron {
+  background-color: rgba(52, 59, 63, 0.6);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.jumbotron > .container {
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(52, 59, 63, 0.8);
+  border-radius: 3px;
+  color: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1.5em;
+}
+
+.display-4 {
+  color: #329F2B;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.5em;
+  width: 80%;
+}
+
+.carousel-button {
+  align-items: center;
+  background-color: #329F2B;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  height: 3em;
+  padding: 1em;
+  text-align: center;
+  width: 60%;
+}
+
+.carousel-button:hover {
+  background-color: #267620;
+  color: #fff;
+  text-decoration: none;
+}
+
+/********** CONTACT PAGE & FORM **********/
+
+.add-question-button {
+  background-color: #329F2B;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+}
+
+.remove-question-button {
+  background-color: gold;
+  font-weight: bold;
+  padding: 0 1em;
+}
+
+.form-submit {
+  background-color: #329F2B;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+.required {
+  color: red;
+}
+
+/********** FOOTER **********/
+
+.footer > p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  align-items: center;
+  background: linear-gradient(#dadada 0%, #343B3F 20%);
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 3em;
+  padding: 2em 1.5em 1.5em;
+}
+
+.footer-home {
+  background: #343B3F;
+  margin-top: 0;
+  padding: 1.5em;
+}
+
+.links:link {
+  color: #329F2B;
+}

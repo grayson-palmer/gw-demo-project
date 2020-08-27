@@ -1,0 +1,50 @@
+@layout('layouts/home-layout')
+
+@section('content')
+  <div class="carousel-background">
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel1 min-vh-90 active">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Structural Framing Types</h1>
+              <p class="lead">You can think of these as the bones of your future building! Click on the button below to view the types of framing available with Steel Buildings!</p>
+              <a class="carousel-button" type="button" href="/structural-framing">View Structural Framing</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel2">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Frame Styles</h1>
+              <p class="lead">Steel frames can come in many different styles and shapes. Click on the button below to view the styles of framing Steel Buildings can come in!</p>
+              <a class="carousel-button" type="button" href="/frame-styles">View Frame Styles</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel3">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Roof Systems</h1>
+              <p class="lead">One of the first things you notice about a building is what the Roof looks like. Click on the button below to view the kinds of Roof Systems your Steel Building can come in!</p>
+              <a class="carousel-button" type="button" href="/roof-systems">View Roof Systems</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+@endsection
