@@ -29,3 +29,5 @@ Route.on('/wall-panels').render('wall-panels')
 Route.on('/contact').render('contact')
 
 Route.on('/privacy-terms').render('privacy-terms')
+
+Route.any('*', ({ view }) => view.render('main'))

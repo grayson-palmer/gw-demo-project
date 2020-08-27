@@ -161,11 +161,20 @@ img {
   padding: 0 1em;
 }
 
+.remove-question-button:hover {
+  background-color: goldenrod;
+}
+
 .form-submit {
   background-color: #329F2B;
   color: #fff;
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.add-question-button:hover,
+.form-submit:hover {
+  background-color: #267620 !important;
 }
 
 label {
